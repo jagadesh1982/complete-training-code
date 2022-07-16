@@ -17,15 +17,14 @@
   </dependencies>
   
   <build>
-<<<<<<< HEAD
-      <finalName>complete-training-code</finalName>
+  <finalName>complete-training-code</finalName>
   <plugins> 
   <plugin>
     <artifactId>maven-war-plugin</artifactId>
     <configuration>
         <failOnMissingWebXml>false</failOnMissingWebXml>
         <attachClasses>true</attachClasses>
-	<webXml>src/main/webapp/WEB-INF/web.xml</webXml>
+    <webXml>src/main/webapp/WEB-INF/web.xml</webXml>
         <webResources>
             <resource>
                 <directory>src/main/webapp</directory>
@@ -42,24 +41,7 @@
             <target>1.8</target>
         </configuration>
 </plugin>
-
 </plugins>
 </build>
-=======
-        <finalName>SampleTest</finalName>
-   <plugins>
-   <plugin>
-        <artifactId>maven-compiler-plugin</artifactId>
-        <version>3.5.1</version>
-        <configuration>
-            <source>11</source>
-            <target>11</target>
-        </configuration>
-    </plugin>
-   </plugins>
-   </build>
   
-  
->>>>>>> 11d28e67ba6d107d41c6aa457f2fc7dd6ae6d619
-
 </project>
